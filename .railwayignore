@@ -1,0 +1,9 @@
+# Railway CLI از این فایل استفاده می‌کند (نه .gitignore) تا بداند چه چیزی را آپلود کند.
+# عمداً .env اینجا نیست، چون توکن ربات باید همراه پروژه به Railway برود.
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+__pycache__/
+*.pyc
+.git/
